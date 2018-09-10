@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    </head>
+    <title>Project-3</title>
+</head>
+<body onload="checkLogin(), loadData(), getUserProfile()"></body>
+     <header>
+        <h2>Project 3</h2>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="users.html">User</a>
+            <a href="image.html">Image</a>
+        </nav>
+    </header>
+    <main>
+        <div id="errors"></div>
+        <div id="success"></div>
+        <figure>
+            <div id="user-image"></div>
+            <div id="username"></div>
+            <div class="change-profile-image">
+                <input type="file" id="profile-image" />
+                <button onclick="changeProfileImage()">Change Profile Image</button>
+            </div>
+        </figure>
+        <section>
+            <div class="new-feed">
+                <div class="add-feed">
+                    <input type="text" id="status" placeholder="Say something" />
+                    <button onclick="addStatus()">Share</button>
+                </div>
+                <div class="add-image">
+                    <input type="file" id="image" />
+                    <input type="checkbox" id="private"><label for="private">Private</label>
+                    <button onclick="addImage()">Add Image</button>
+                </div>
+            </div>
+            <div id="feed-list"></div>
+        </section>
+    </main>
+    <script src="js/login.js"></script> 
+</body>
+</html>

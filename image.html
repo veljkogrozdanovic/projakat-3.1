@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>IT Bootcamp</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+    </head>
+    <body onload="checkLogin(), loadImageData()">
+        <div class="container">
+            <div class="header">
+                <div class="brand">
+                    IT Bootcamp
+                </div>
+                <div id="navbar">
+                    <a href="home.html">Home</a>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div id="errors"></div>
+            <div id="success"></div>
+            <div class="left-sidebar" id="image-container">
+                <div id="image"></div>
+            </div>
+            <div class="main-content" id="image-comments-container">
+                <div class="image-meta">
+                    <div id="author-image"></div>
+                    <div id="author-name"></div>
+                </div>
+                <div id="comments"></div>
+                <div class="add-comment">
+                	<input type="text" id="new-comment" placeholder="Insert comment" />
+                	<button onclick="addComment()">Add Comment</button>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="js/login.js"></script>
+    
+</html>

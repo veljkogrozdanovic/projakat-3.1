@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {  
+    height: 80px;
+    background: rgb(103, 103, 247);
+    color: white;
+}
+header h2 {
+    margin: 0;
+    padding: 15px;
+}
+nav {
+    float: right;
+}
+nav a {
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+}
+nav a:visited {
+    color: rgb(252, 216, 149);
+}
+main {
+    display: flex;
+}
+main button {
+    margin: 4px;
+}
+content {
+    padding-left: 15px;
+    padding-bottom: 15px;
+    background-color: rgb(248, 243, 236);
+    width: 70%;
+    
+}
+content p {
+    display: inline-block;
+    margin: 5px;
+    width: 110px;
+}
+aside{
+    padding-left: 15px;
+    color:white;
+    background-color: rgb(41, 147, 247);
+    width: 30%;
+    float: right;
+}
+aside input {
+    display: inline-block;
+    margin: 5px;
+    
+}
+#errors div {
+    background-color: rgb(245, 91, 63);
+    color: white;
+    font-size: 11px;
+    border-radius: 3px;
+    padding: 3px;
+}
+#success div {
+    background-color: rgb(52, 223, 29);
+    color: white;
+    font-size: 11px;
+    border-radius: 3px;
+    padding: 3px;
+}
+#login_error div {
+    background-color: rgb(245, 91, 63);
+    color: white;
+    font-size: 11px;
+    border-radius: 3px;
+    padding: 3px;
+}
+
+.change-profile-image button {
+    display: block;
+    margin-left: 0;
+}
+.add-image button {
+    display: block;
+    margin-left: 0;
+}
