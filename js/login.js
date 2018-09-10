@@ -25,7 +25,7 @@ function signupF() {
     }
     // Reset error messages
     let errors = document.getElementById("errors");
-    let success = document.getElementById("succsess");
+    let success = document.getElementById("success");
     errors.innerHTML = '';
     success.innerHTML = '';
     
